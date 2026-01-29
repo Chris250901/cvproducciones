@@ -1,59 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CV Producciones
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sitio web oficial de CV Producciones - Fotografía y Video Profesional para Eventos Sociales en Lima.
 
-## About Laravel
+## 📸 Descripción
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Servicios profesionales de fotografía y video para:
+- Bodas
+- 15 años
+- Eventos corporativos
+- Sesiones de pareja
+- Fotografía familiar
+- Eventos sociales
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🛠️ Tecnologías
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Laravel 11
+- Tailwind CSS
+- Material Icons
+- Font Awesome
+- Dark Mode support
 
-## Learning Laravel
+## 🚀 Instalación
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+```bash
+# Clonar el repositorio
+git clone https://github.com/Chris250901/cvproducciones.git
+cd cvproducciones
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Instalar dependencias
+composer install
+npm install
 
-## Laravel Sponsors
+# Configurar entorno
+cp .env.example .env
+php artisan key:generate
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Ejecutar migraciones
+php artisan migrate
 
-### Premium Partners
+# Iniciar servidor
+php artisan serve
+```
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 📂 Estructura
 
-## Contributing
+```
+resources/views/
+├── layouts/
+│   └── app.blade.php          # Layout principal
+├── partials/
+│   ├── header.blade.php      # Header con menú responsive
+│   └── footer.blade.php      # Footer
+└── home.blade.php            # Página principal con todas las secciones
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🎨 Características
 
-## Code of Conduct
+- ✅ Diseño responsive
+- ✅ Dark mode automático
+- ✅ Menú móvil con overlay
+- ✅ WhatsApp integration en todos los CTAs
+- ✅ Secciones: Hero, Servicios, Paquetes, Conócenos, FAQ, Portafolio
+- ✅ Formularios de contacto con WhatsApp
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📱 WhatsApp Integration
 
-## Security Vulnerabilities
+Todos los botones de contacto abren directamente con WhatsApp:
+- Contactar: https://wa.me/51XXXXXXXXX?text=Hola%20CV%20Producciones%2C%20quiero%20cotizar...
+- Paquetes: Mensaje específico por paquete elegido
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 💾 Backup
 
-## License
+**Respaldo Manual:**
+- Ejecutar: `backup_script.bat`
+- Archivos en: `C:\laragon\www\backups\cvproducciones\`
+- Formato: ZIP con timestamp
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**GitHub:**
+- Repositorio: https://github.com/Chris250901/cvproducciones
+- Branch: main
+
+## 🔗 Links
+
+- [Portafolio en línea](#)
+- [Contacto por WhatsApp](https://wa.me/51XXXXXXXXX)
+- [Instagram](#)
+
+---
+
+© 2024 CV Producciones. Lima, Perú.
