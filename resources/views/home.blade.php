@@ -454,6 +454,18 @@
         </div>
     </section>
 
+    <!-- Team Section -->
+    @include('partials.equipo')
+
+    <!-- Locations Section -->
+    @include('partials.locaciones')
+
+    <!-- Testimonials Section -->
+    @include('partials.testimonios')
+
+    <!-- Blog Section -->
+    @include('partials.blog')
+
     <!-- Portfolio Section -->
     <section class="py-20 bg-background-light dark:bg-background-dark" id="portafolio">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

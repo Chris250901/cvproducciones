@@ -12,6 +12,8 @@
                 <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#portafolio">Portafolio</a>
                 <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#paquetes">Paquetes</a>
                 <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#conocenos">Conócenos</a>
+                <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#equipo">Equipo</a>
+                <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#locaciones">Locaciones</a>
                 <a class="text-gray-300 hover:text-primary transition-colors text-sm font-medium uppercase tracking-wide" href="#contacto">Contacto</a>
             </nav>
 
@@ -42,6 +44,8 @@
             <a class="text-2xl font-medium hover:text-primary transition-colors" href="#portafolio">Portafolio</a>
             <a class="text-2xl font-medium hover:text-primary transition-colors" href="#paquetes">Paquetes</a>
             <a class="text-2xl font-medium hover:text-primary transition-colors" href="#conocenos">Conócenos</a>
+            <a class="text-2xl font-medium hover:text-primary transition-colors" href="#equipo">Equipo</a>
+            <a class="text-2xl font-medium hover:text-primary transition-colors" href="#locaciones">Locaciones</a>
             <a class="text-2xl font-medium hover:text-primary transition-colors" href="#contacto">Contacto</a>
 
             <div class="mt-8">
