@@ -1,5 +1,5 @@
+# Laravel
 *.log
-.DS_Store
 .env
 .env.backup
 .env.production
@@ -22,3 +22,21 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Laravel specific
+storage/logs/*
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/app/public/*
+
+# Backup files
+*.zip
+*.tar.gz
+/backups/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

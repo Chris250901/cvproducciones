@@ -1,0 +1,44 @@
+name: Backup Snapshot
+
+on:
+  schedule:
+    # Todos los días a las 2 AM
+    - cron: '0 2 * * *'
+  push:
+    branches: [ main, master ]
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Create backup snapshot
+      run: |
+        TIMESTAMP=$(date +"%Y%m%d_%H%M")
+        mkdir -p backups
+
+        # Crear archivo de backup
+        tar -czf "backups/cvproducciones_snapshot_${TIMESTAMP}.tar.gz" \
+          --exclude='vendor' \
+          --exclude='node_modules' \
+          --exclude='.git' \
+          --exclude='backups' \
+          .
+
+    - name: Upload to GitHub Releases
+      uses: softprops/action-gh-release@v1
+      if: github.event_name == 'schedule'
+      with:
+        files: backups/*.tar.gz
+        tag_name: "backup-${TIMESTAMP}"
+        name: "Backup Snapshot ${TIMESTAMP}"
+        body: "Automated backup snapshot of CV Producciones"
+
+    - name: Upload to artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: backup-snapshot
+        path: backups/*.tar.gz
