@@ -10,7 +10,14 @@
       "Bash(del:*)",
       "Bash(backup_script.bat)",
       "Bash(./backup_script.bat)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(php artisan route:list:*)",
+      "Bash(php artisan tinker:*)",
+      "Bash(php:*)",
+      "Bash(composer require:*)",
+      "Bash(npm install:*)",
+      "Bash(squoosh --help:*)",
+      "Bash(ls:*)"
     ]
   }
 }

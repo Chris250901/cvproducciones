@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20">
             <div class="flex-shrink-0 flex items-center gap-3">
-                <img alt="CV Producciones Logo - Camera Illustration" class="h-12 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLpGygA8u8l9WjTUiQPtnHyvM6l4uUdRaJfiaVzqyzQlOHuPd0mzBvddX-V71wpakV2kfUqmRLEq2_K0c_CAS7VcN2IUt2oD9SGcXA5uImjL75fdcYiZW1mY00bJa0bCKf3I33Jqnv2OiHSgK-fZSd03EmUrkMrdALjRKIIAb8gVM7i8ZFNlJgVLsaHD5-PUY_L2ARFm6eewHlNZA99SUOxCrVElkWbE1f_NboTLebdtO65_yBStf7aXf_GdLpNwnCEO_H-vncwJLX"/>
+                <img alt="CV Producciones Logo" class="h-12 w-auto" src="{{ asset('img/logo.png') }}"/>
                 <span class="font-display font-bold text-xl text-white tracking-wider hidden sm:block">CV<span class="text-secondary">PRODUCCIONES</span></span>
             </div>
 
